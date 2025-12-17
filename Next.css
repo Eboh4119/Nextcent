@@ -1,0 +1,362 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Navigation Styling */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    animation: slideDown 1s ease-out;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+li{
+    list-style: none;
+   font-weight: bold;
+   font-size: 12px;
+    color: '#212326';
+}
+
+li:hover{
+    border-bottom: 2px solid #4CAF4F;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.logo{
+    color: '#212326';
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.Register{
+    background-color: #4CAF4F;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* First Section Styling */
+.first-section{
+    height: 416.95px;
+    background: linear-gradient(to right, white 0%, #f0f0f0 90%, #E0e0e0);
+    padding: 0px 80px;
+}
+
+.insight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.lessons{
+    width: 457.32px;
+    height: 192.9px;
+    animation: slideInLeft 1s ease-out;
+}
+
+.lessons h1{
+    font-weight: 900;
+    font-size: 43.5px;
+}
+
+.lessons h1 span{
+    color: #4CAF4F;
+}
+
+.lessons p{
+    font-size: small;
+}
+
+.lessons button{
+    background-color: #4CAF4F;
+    padding: 12px 26px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.system-image{
+    width: 292.16px;
+    height: 283.3px;
+    z-index: 1;
+    animation: fadeInRight 1s ease-out .3s both;
+}
+
+.pagination{
+    width: 32.02px;
+    height: 6.96px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 4px;
+}
+
+.pagination span{
+    width: 100.96px;
+    height: 6.96px;
+    border-radius: 100%;
+    background-color: #E0e0e0;
+    cursor: pointer;
+}
+
+.pagination span:hover{
+    background-color: #4CAF4F;
+}
+
+.pagination .active{
+    background-color: #4CAF4F;
+}
+
+/* Second Section */
+.second-section{
+    background: linear-gradient(to right, white 0%, white 70%, #E0e0e0);
+    padding: 30px 0px;
+}
+
+.clients{
+    text-align: center;
+}
+
+.clients h1{
+    font-size: 25.06px;
+    font-weight: 900;
+}
+
+.clients p{
+    font-size: 12.4px;
+}
+
+.icons-user{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+/* Thrid Section */
+.third-section{
+     background: linear-gradient(to right, white 0%, white 70%, #E0e0e0);
+    padding: 30px 0px;
+}
+
+.community{
+    text-align: center;
+    width: 420px;
+    margin: 0px auto;
+}
+.community h1{
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.organization{
+display: flex;
+justify-content: space-around;
+margin: 20px 0px;
+gap: 20px;
+padding: 0px 50px;
+}
+
+.membership{
+    display: block;
+    justify-content: center;
+    width: 200.83px;
+    text-align: center;
+    padding: 5px 10px;
+    box-shadow: 0px 0.5px 0.5px 0px #c7c7c7;
+}
+.membership h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.membership p{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.national{
+    display: block;
+    justify-content: center;
+    width: 180.83px;
+    text-align: center;
+    padding: 5px 10px;
+    box-shadow: 0px 0.5px 0.5px 0px #c7c7c7;
+}
+.national h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.national p{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.clubs{
+    display: block;
+    justify-content: center;
+    width: 160.83px;
+    text-align: center;
+    padding: 5px 10px;
+    box-shadow: 0px 0.5px 0.5px 0px #c7c7c7;
+}
+.clubs h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.clubs p{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/* fourth section */
+.fourth-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 70px;
+}
+
+.pixel{
+    width: 490.69px;
+    margin: 35px 0px;
+}
+
+.pixel p{
+    font-size: small;
+    font-weight: lighter;
+    line-height: 20px;
+}
+
+.pixel button{
+    background-color: #4CAF4F;
+    padding: 12px 26px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+/* fifth section */
+.fifth-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #E0e0e0;
+}
+
+.local{
+    width: 350px;
+}
+.local h1 span{
+    color: #4CAF4F;
+}
+.local p{
+    font-weight: lighter;
+    font-size: small;
+}
+.count{
+    display: flex;
+}
+.members{
+    display: flex;
+    align-items: center;
+}
+
+.counters span{
+    font-weight: bold;
+}
+.counters p{
+    font-size: small;
+}
+.counters{
+    height: 50px;
+    width: 100px;
+    padding: 10px 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+};
+
+
+/* Seventh section */
+
+.text-box{
+    width: 400px;
+}
+
+.text-box h2{
+    color: #4CAF4F;
+}
+
+.text-box .p2{
+    font-size: smaller;
+}
+
+.icons-use{
+    display: flex;
+    gap: 30px;
+}
+
+.icons-use p{
+    color: #4CAF4F;
+    font-weight: bold;
+}
+
+.tesla-image{
+    animation: teslaSlide 2s ease-out;
+}
+
+@keyframes teslaSlide {
+    from{
+        opacity: 0;
+        transform: translateX(-20%);
+    }to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+/* animation */
+
+@keyframes slideInLeft {
+    from{
+        opacity: 0;
+        transform: translateX(-20%);
+    }to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeInRight {
+    from{
+        opacity: 0;
+        transform: translateX(20%);
+    }to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes slideDown {
+    from{
+        opacity: 0;
+        transform: translateY(-20%);
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

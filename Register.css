@@ -1,0 +1,88 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+    display: flex;
+    gap: 40px;
+    margin: 30px 20px;
+}
+
+.top{
+    margin-top: 40px;
+}
+
+.logo{
+    display: flex;
+    justify-self: center;
+}
+.logo p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    justify-self: center;
+    margin-bottom: 15px;
+} 
+
+input{
+    display: block;
+    width: 200px;
+    height: 25px;
+    outline: none;
+    padding: 4px 4px;
+}
+
+.account-container{
+    width: 600px;
+    border: 1px solid rgb(231, 229, 229);
+    border-radius: 2px;
+    padding: 10px 0px;
+    animation: slideInRight 1s ease-out .3s both;
+}
+
+.register{
+    background-color: #4CAF4F;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    outline: none;
+    border: none;
+    justify-self: center;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.act-img{
+    animation: slideInLeft 1s ease-out;
+}
+
+@keyframes slideInLeft {
+    from{
+        opacity: 0;
+        transform: translateX(-20%);
+    }to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from{
+        opacity: 0;
+        transform: translateX(20%);
+    }to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
