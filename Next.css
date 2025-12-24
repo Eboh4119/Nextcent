@@ -318,6 +318,16 @@ a{
 .tesla-image{
     animation: teslaSlide 2s ease-out;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #4CAF4F;
+    font-size: larger;
+    padding: 10px 0px;
+
+
+}
 
 @keyframes teslaSlide {
     from{
